@@ -30,8 +30,8 @@ void findUniqueCombination(int index, int target, vector<int> &arr,
 }
 
 int main() {
-  vector<int> arr = {1, 1, 1, 2, 2};
-  int target = 4;
+  vector<int> arr = {4, 10, 2, 12, 5};
+  int target = 21;
   sort(arr.begin(), arr.end());
   vector<int> ds;
   findUniqueCombination(0, target, arr, ds);
